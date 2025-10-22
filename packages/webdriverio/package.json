@@ -71,7 +71,7 @@
     "@types/node": "^20.1.0",
     "@wdio/config": "8.24.12",
     "@wdio/logger": "8.24.12",
-    "@wdio/protocols": "8.24.12",
+    "@wdio/protocols": "@luminati.io/webdriverio8-protocols@8.24.12-lum.2",
     "@wdio/repl": "8.24.12",
     "@wdio/types": "8.24.12",
     "@wdio/utils": "8.24.12",

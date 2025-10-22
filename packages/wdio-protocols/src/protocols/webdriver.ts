@@ -1260,6 +1260,16 @@ export default {
             },
         },
     },
+    '/session/:sessionId/headers': {
+        POST: {
+            command: 'setExtraHTTPHeaders',
+            parameters: [
+                { name: 'headers', type: 'object[]', required: true },
+                { name: 'topLevelOnly', type: 'boolean', required: true },
+                { name: 'replaceMode', type: 'boolean', required: true }
+            ]
+        }
+    },
     '/session/:sessionId/element/:elementId/screenshot': {
         GET: {
             command: 'takeElementScreenshot',
