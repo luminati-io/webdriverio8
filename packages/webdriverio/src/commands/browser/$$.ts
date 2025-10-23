@@ -1,4 +1,4 @@
-import type { ElementReference } from '@wdio/protocols'
+import type { ElementReference } from '@luminati-io/webdriverio8-protocols'
 
 import { findElements, enhanceElementsArray, isElement, findElement } from '../../utils/index.js'
 import { getElements } from '../../utils/getElementObject.js'

@@ -4,7 +4,7 @@ import { commandCallStructure, isValidParameter, getArgumentType } from '@wdio/u
 import {
     WebDriverBidiProtocol,
     type CommandEndpoint,
-} from '@wdio/protocols'
+} from '@luminati-io/webdriverio8-protocols'
 
 import RequestFactory from './request/factory.js'
 import type { WebDriverResponse } from './request/index.js'

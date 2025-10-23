@@ -1,7 +1,7 @@
 {
-  "name": "webdriverio",
+  "name": "@luminati-io/webdriverio8",
   "description": "Next-gen browser and mobile automation test framework for Node.js",
-  "version": "8.26.1",
+  "version": "8.26.1-lum.11",
   "homepage": "https://webdriver.io",
   "author": "Christian Bromann <mail@bromann.dev>",
   "license": "MIT",
@@ -71,7 +71,8 @@
     "@types/node": "^20.1.0",
     "@wdio/config": "8.24.12",
     "@wdio/logger": "8.24.12",
-    "@wdio/protocols": "@luminati.io/webdriverio8-protocols@8.24.12-lum.2",
+    "@luminati-io/webdriverio8-protocols": "8.24.12-lum.4",
+    "@luminati-io/webdriverio8-webdriver": "8.24.12-lum.1",
     "@wdio/repl": "8.24.12",
     "@wdio/types": "8.24.12",
     "@wdio/utils": "8.24.12",
@@ -90,8 +91,7 @@
     "query-selector-shadow-dom": "^1.0.0",
     "resq": "^1.9.1",
     "rgb2hex": "0.2.5",
-    "serialize-error": "^11.0.1",
-    "webdriver": "8.24.12"
+    "serialize-error": "^11.0.1"
   },
   "peerDependencies": {
     "devtools": "^8.14.0"
@@ -100,5 +100,10 @@
     "devtools": {
       "optional": true
     }
-  }
+  },
+  "files": [
+    "build",
+    "package.json",
+    "LICENSE-MIT"
+  ]
 }

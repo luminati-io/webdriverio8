@@ -1,7 +1,7 @@
 import path from 'node:path'
 import { EventEmitter } from 'node:events'
 import { createRequire } from 'node:module'
-import { WebDriverProtocol } from '@wdio/protocols'
+import { WebDriverProtocol } from '@luminati-io/webdriverio8-protocols'
 import type { URL } from 'node:url'
 
 import logger from '@wdio/logger'

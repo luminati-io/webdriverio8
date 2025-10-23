@@ -1,4 +1,4 @@
-import type { Timeouts } from '@wdio/protocols'
+import type { Timeouts } from '@luminati-io/webdriverio8-protocols'
 
 /**
  *

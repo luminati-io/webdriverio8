@@ -1,5 +1,5 @@
 /* eslint-disable no-dupe-class-members */
-import type { ElementReference } from '@wdio/protocols'
+import type { ElementReference } from '@luminati-io/webdriverio8-protocols'
 import type { BaseActionParams, KeyActionType } from './base.js'
 import BaseAction from './base.js'
 import type { ChainablePromiseElement } from '../../types.js'

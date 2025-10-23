@@ -2,7 +2,7 @@ import fs from 'node:fs/promises'
 import url from 'node:url'
 
 import { resolve } from 'import-meta-resolve'
-import type { ElementReference } from '@wdio/protocols'
+import type { ElementReference } from '@luminati-io/webdriverio8-protocols'
 
 import { getBrowserObject } from '../../utils/index.js'
 import { getElement } from '../../utils/getElementObject.js'

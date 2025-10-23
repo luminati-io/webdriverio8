@@ -3,7 +3,7 @@ import { EventEmitter } from 'node:events'
 
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import logger from '@wdio/logger'
-import type { CommandEndpoint } from '@wdio/protocols'
+import type { CommandEndpoint } from '@luminati-io/webdriverio8-protocols'
 import type { Options } from '@wdio/types'
 
 // @ts-expect-error mock feature

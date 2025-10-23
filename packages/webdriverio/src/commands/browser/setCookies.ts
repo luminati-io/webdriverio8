@@ -1,4 +1,4 @@
-import type { Cookie } from '@wdio/protocols'
+import type { Cookie } from '@luminati-io/webdriverio8-protocols'
 
 /**
  *

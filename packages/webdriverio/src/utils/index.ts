@@ -8,7 +8,7 @@ import GraphemeSplitter from 'grapheme-splitter'
 import logger from '@wdio/logger'
 import isPlainObject from 'is-plain-obj'
 import { UNICODE_CHARACTERS } from '@wdio/utils'
-import type { ElementReference } from '@wdio/protocols'
+import type { ElementReference } from '@luminati-io/webdriverio8-protocols'
 
 import * as browserCommands from '../commands/browser.js'
 import * as elementCommands from '../commands/element.js'

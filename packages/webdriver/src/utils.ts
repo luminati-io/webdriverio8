@@ -2,13 +2,13 @@ import type { EventEmitter } from 'node:events'
 import { deepmergeCustom } from 'deepmerge-ts'
 
 import logger from '@wdio/logger'
-import type { Protocol } from '@wdio/protocols'
+import type { Protocol } from '@luminati-io/webdriverio8-protocols'
 import {
     WebDriverProtocol, MJsonWProtocol, JsonWProtocol, AppiumProtocol, ChromiumProtocol,
     SauceLabsProtocol, SeleniumProtocol, GeckoProtocol, WebDriverBidiProtocol
-} from '@wdio/protocols'
+} from '@luminati-io/webdriverio8-protocols'
 import { transformCommandLogResult } from '@wdio/utils'
-import { CAPABILITY_KEYS } from '@wdio/protocols'
+import { CAPABILITY_KEYS } from '@luminati-io/webdriverio8-protocols'
 import type { Options, Capabilities } from '@wdio/types'
 
 import RequestFactory from './request/factory.js'

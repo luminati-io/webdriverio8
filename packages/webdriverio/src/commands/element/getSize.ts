@@ -1,4 +1,4 @@
-import type { RectReturn } from '@wdio/protocols'
+import type { RectReturn } from '@luminati-io/webdriverio8-protocols'
 
 import { getElementRect } from '../../utils/index.js'
 

@@ -1,6 +1,6 @@
 import { ELEMENT_KEY } from '../../constants.js'
 import { getBrowserObject } from '../../utils/index.js'
-import type { ElementReference } from '@wdio/protocols'
+import type { ElementReference } from '@luminati-io/webdriverio8-protocols'
 
 const ACTION_BUTTON = 0 as const
 

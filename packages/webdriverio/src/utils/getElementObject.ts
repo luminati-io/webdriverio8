@@ -1,6 +1,6 @@
 import { webdriverMonad, wrapCommand } from '@wdio/utils'
 import clone from 'lodash.clonedeep'
-import type { ElementReference } from '@wdio/protocols'
+import type { ElementReference } from '@luminati-io/webdriverio8-protocols'
 
 import { getBrowserObject, getPrototype as getWDIOPrototype, getElementFromResponse } from './index.js'
 import { elementErrorHandler } from '../middlewares.js'

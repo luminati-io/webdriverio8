@@ -2,7 +2,7 @@ import type { EventEmitter } from 'node:events'
 import type { Protocol } from 'devtools-protocol'
 import type { SessionFlags, AttachOptions as WebDriverAttachOptions, BidiHandler, BidiEventHandler } from 'webdriver'
 import type { Options, Capabilities, FunctionProperties, ThenArg } from '@wdio/types'
-import type { ElementReference, ProtocolCommands } from '@wdio/protocols'
+import type { ElementReference, ProtocolCommands } from '@luminati-io/webdriverio8-protocols'
 import type { Browser as PuppeteerBrowser } from 'puppeteer-core/lib/esm/puppeteer/api/Browser.js'
 
 import type * as BrowserCommands from './commands/browser.js'
