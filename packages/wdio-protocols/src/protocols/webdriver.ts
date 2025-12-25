@@ -1270,6 +1270,14 @@ export default {
             ]
         }
     },
+    '/session/:sessionId/fingerprint': {
+        POST: {
+            command: 'setFingerprint',
+            parameters: [
+                { name: 'fingerprint', type: 'object', required: true },
+            ],
+        },
+    },    
     '/session/:sessionId/element/:elementId/screenshot': {
         GET: {
             command: 'takeElementScreenshot',
